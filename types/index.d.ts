@@ -1,13 +1,13 @@
-export type TechStack = {
+export interface TechStack {
   name: string;
   icon: React.ElementType;
-};
+}
 
 export interface Project {
   id: string;
   image: string;
-  github: string;
+  github?: string;
   demo?: string;
-  tech: string[];
+  tech?: TechStack[];
   devMode: boolean;
 }

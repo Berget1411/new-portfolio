@@ -82,6 +82,18 @@
       "shortDescription": "A fullstack e-commerce website with Stripe payment integration.",
       "longDescription": "A fullstack e-commerce website with store page and admin dashboard. The website is built with technologies like Next.js, Tailwind CSS, TypeScript, Express, Drizzle ORM and Stripe for payment integration.",
       "date": "Oct, 2024"
+    },
+    "ths": {
+      "title": "THS",
+      "shortDescription": "Working on THS Business's website",
+      "longDescription": "Working on THS Business's website",
+      "date": "Oct, 2024"
+    },
+    "Andysolam": {
+      "title": "Andysolam",
+      "shortDescription": "Working on an e-commerce website and main website for company managing Rust servers.",
+      "longDescription": "Working on an e-commerce website and main website for company managing Rust servers.",
+      "date": "Oct, 2024"
     }
   },
   "technologies": {
