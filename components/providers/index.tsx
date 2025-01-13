@@ -1,5 +1,5 @@
 import { ThemeProvider } from "@/components/providers/theme-provider";
-
+import { Toaster } from "@/components/ui/toaster";
 export default function Providers({
   children,
 }: Readonly<{
@@ -13,6 +13,7 @@ export default function Providers({
       disableTransitionOnChange
     >
       {children}
+      <Toaster />
     </ThemeProvider>
   );
 }

@@ -4,6 +4,8 @@ import Projects from "@/components/projects";
 import { Separator } from "@/components/ui/separator";
 import About from "@/components/about";
 import Technologies from "@/components/technologies";
+import Contact from "@/components/contact";
+
 export default function Home() {
   return (
     <div className='flex flex-col gap-16 md:gap-24 lg:gap-32'>
@@ -16,6 +18,7 @@ export default function Home() {
       <Separator className='main-width opacity-50' gradient />
       <Projects />
       <Technologies />
+      <Contact />
     </div>
   );
 }

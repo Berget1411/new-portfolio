@@ -105,6 +105,7 @@
   },
   "contact": {
     "title": "Kontakta mig",
+    "description": "Har du en fråga eller vill arbeta tillsammans? Skicka ett meddelande!",
     "form": {
       "name": "Namn",
       "email": "Email",

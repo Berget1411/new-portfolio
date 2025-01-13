@@ -105,6 +105,7 @@
   },
   "contact": {
     "title": "Get in touch",
+    "description": "Have a question or want to work together? Drop me a message!",
     "form": {
       "name": "Name",
       "email": "Email",
