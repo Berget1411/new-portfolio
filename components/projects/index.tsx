@@ -12,8 +12,8 @@ export default function Projects() {
   const t = useTranslations("projects");
 
   return (
-    <section id='projects' className='w-full main-width'>
-      <div className='mb-20'>
+    <section className='w-full main-width'>
+      <div className='mb-20' id='projects'>
         <FadeInSection className='text-center mb-12'>
           <h2 className='text-2xl md:text-4xl font-bold mb-4'>{t("title")}</h2>
           <p className='text-muted-foreground'>{t("description")}</p>

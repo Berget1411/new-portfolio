@@ -9,7 +9,10 @@ export default function Contact() {
 
   return (
     <LampContainer>
-      <div className='absolute inset-0 bg-grid-black/[0.08] dark:bg-grid-white/[0.03]'>
+      <div
+        className='absolute inset-0 bg-grid-black/[0.08] dark:bg-grid-white/[0.03]'
+        id='contact'
+      >
         <div className='absolute inset-0 [mask-image:radial-gradient(ellipse_at_center,transparent_20%,hsl(var(--background)))]'></div>
       </div>
 
