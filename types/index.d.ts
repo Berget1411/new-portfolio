@@ -5,7 +5,7 @@ export interface TechStack {
 
 export interface Project {
   id: string;
-  image: string;
+  image?: string;
   github?: string;
   demo?: string;
   tech?: TechStack[];

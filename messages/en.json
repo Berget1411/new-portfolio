@@ -71,6 +71,7 @@
   "projects": {
     "title": "Projects",
     "description": "Here are some of my previous projects and ones I'm working on right now",
+    "in-development": "In development",
     "portfolio": {
       "title": "Portfolio",
       "shortDescription": "My website displaying my knowledge, experiences, tech-stack and a little about me.",

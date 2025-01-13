@@ -27,6 +27,7 @@
   },
   "experience": {
     "title": "Erfarenhet",
+    "description": "Här är mina erfarenheter och de jag arbetar på just nu",
     "ths": {
       "title": "THS Business",
       "undertitle": "Frontend Lead & Fullstack Developer",
@@ -44,6 +45,7 @@
   },
   "education": {
     "title": "Utbildning",
+    "description": "Här är mina utbildningar",
     "kth": {
       "title": "KTH Royal Institute of Technology",
       "undertitle": "Civilingenjör, industriell ekonomi",
@@ -68,6 +70,8 @@
   },
   "projects": {
     "title": "Projekt",
+    "description": "Här är några av mina tidigare projekt och de jag arbetar på just nu",
+    "in-development": "Under utveckling",
     "portfolio": {
       "title": "Portfolio",
       "shortDescription": "Min hemsida som visar mina kunskaper, erfarenheter, tekniker och lite om mig.",
@@ -78,6 +82,18 @@
       "title": "E-commerce",
       "shortDescription": "En fullstack e-handelswebbplats med Stripe-betalningsintegration.",
       "longDescription": "En fullstack e-handelswebbplats med butiksida och admin-panel. Webbplatsen är byggd med tekniker som Next.js, Shadcn UI, Tailwind CSS, TypeScript, Express, Drizzle ORM och Stripe för betalningsintegration.",
+      "date": "Oktober, 2024"
+    },
+    "Andysolam": {
+      "title": "Andysolam",
+      "shortDescription": "Arbetar på en e-handelswebbplats och huvudwebbplats för företaget som hanterar Rust-servrar.",
+      "longDescription": "Arbetar på en e-handelswebbplats och huvudwebbplats för företaget som hanterar Rust-servrar.",
+      "date": "Oktober, 2024"
+    },
+    "ths": {
+      "title": "THS",
+      "shortDescription": "Arbetar på THS Business's hemsida",
+      "longDescription": "Arbetar på THS Business's hemsida",
       "date": "Oktober, 2024"
     }
   },

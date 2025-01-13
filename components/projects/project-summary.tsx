@@ -15,16 +15,8 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import {
-  FaExternalLinkAlt,
-  FaGithub,
-  FaCode,
-  FaChevronDown,
-  FaChevronUp,
-} from "react-icons/fa";
+import { FaExternalLinkAlt, FaGithub, FaChevronDown } from "react-icons/fa";
 import Link from "next/link";
-import { mainTechStack } from "@/assets/tech-stack";
-import type { IconType } from "react-icons";
 import type { Project } from "@/types";
 import scrollToSection from "@/utils/scrollToSection";
 import { useState } from "react";

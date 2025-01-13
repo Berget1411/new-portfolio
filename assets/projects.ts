@@ -100,6 +100,7 @@ export const projects = [
   },
   {
     id: "Andysolam",
+    image: "/images/projects/project_placeholder.png",
     tech: [
       {
         name: "Next.js",
