@@ -11,14 +11,14 @@ export default function Footer() {
           </div>
           <div className='flex items-center gap-4'>
             <Link
-              href='https://github.com/Berget1411'
+              href='https://linkedin.com/in/ludvig-bergstrom'
               target='_blank'
               className='text-muted-foreground transition-colors hover:text-primary'
             >
               <FaLinkedin size={20} />
             </Link>
             <Link
-              href='https://github.com/ludvigbergstrom'
+              href='https://github.com/Berget1411'
               target='_blank'
               className='text-muted-foreground transition-colors hover:text-primary'
             >

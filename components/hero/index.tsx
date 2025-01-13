@@ -172,7 +172,7 @@ export function Hero() {
           >
             <motion.div whileHover='hover' variants={linkVariants}>
               <Link
-                href='https://github.com/yourusername'
+                href='https://github.com/Berget1411'
                 className='text-muted-foreground hover:text-foreground transition-colors'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -182,7 +182,7 @@ export function Hero() {
             </motion.div>
             <motion.div whileHover='hover' variants={linkVariants}>
               <Link
-                href='https://linkedin.com/in/yourusername'
+                href='https://linkedin.com/in/ludvig-bergstrom'
                 className='text-muted-foreground hover:text-foreground transition-colors'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -246,7 +246,10 @@ export function Hero() {
                   ease: "easeInOut",
                 }}
               />
-              <div className='relative flex items-center gap-2 px-3 py-1.5 bg-primary/10 backdrop-blur-sm rounded-lg border-2 border-primary/30 cursor-pointer'>
+              <div
+                className='relative flex items-center gap-2 px-3 py-1.5 bg-primary/10 backdrop-blur-sm rounded-lg border-2 border-primary/30 cursor-pointer'
+                onClick={() => scrollToSection("technologies")}
+              >
                 <span className='text-sm font-medium text-primary'>More</span>
                 <motion.div
                   animate={{
