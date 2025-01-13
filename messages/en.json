@@ -1,0 +1,99 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "technologies": "Technologies",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Home"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "sv": "Swedish"
+  },
+  "profile": {
+    "title": "Ludvig Bergtröm",
+    "desc1": "M.Sc. Industrial Engineering and Management",
+    "desc2": "Software Developer"
+  },
+  "about": {
+    "title": "About",
+    "body": "Hi, I'm Ludvig—a self-taught programmer and first-year M.Sc. student in Industrial Engineering and Management at KTH. Alongside my studies, I'm a software developer at THS Business, helping KTH students connect with future employers. I'm currently expanding my skills in full-stack development and leveraging AI tools like Cursor and ChatGPT to code more efficiently."
+  },
+  "experience": {
+    "title": "Experience",
+    "ths": {
+      "title": "THS Business",
+      "undertitle": "Frontend Lead & Fullstack Developer",
+      "date": "Oct 2024 - Present",
+      "desc1": "Focusing on frontend development but also doing fullstack.",
+      "desc2": "Developing a platform for KTH students to connect with future employers."
+    },
+    "atlas-copco": {
+      "title": "Atlas Copco",
+      "undertitle": "Intern",
+      "date": "Jul 2024 - Aug 2024",
+      "desc1": "Developed the front end of a joint management application using technologies such as React, TypeScript, Vite, BulmaCSS and Docker.",
+      "desc2": "I also contributed to project documentation and successfully assisted in the project handover to a colleague for continued development."
+    }
+  },
+  "education": {
+    "title": "Education",
+    "kth": {
+      "title": "KTH Royal Institute of Technology",
+      "undertitle": "M.Sc. Industrial Engineering and Management",
+      "date": "2024 - 2029",
+      "desc1": "One of Europe's leading technical universities, ranked 95th in the world.",
+      "desc2": "300 ECTS of courses in Mathematics, Computer Science and Industrial Economics and Management."
+    },
+    "odin": {
+      "title": "The Odin Project",
+      "undertitle": "Full Stack Course",
+      "date": "Jul 2023 - Jun 2024",
+      "desc1": "During my gap year I took an open source curriculum for learning modern web development.",
+      "desc2": "I learned fullstack web development with technologies like JavaScript, TypeScript, Tailwind CSS, React, Next.js, Node.js, Express, MongoDB etc..."
+    },
+    "ng": {
+      "title": "Nacka Gymnasium",
+      "undertitle": "High School Diploma, Natural Science Programme",
+      "date": "2020 - 2023",
+      "desc1": "Grade 22.29 / 22.50",
+      "desc2": "Specialization in maths, medicine, french and web development"
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "portfolio": {
+      "title": "Portfolio",
+      "shortDescription": "My website displaying my knowledge, experiences, tech-stack and a little about me.",
+      "longDescription": "A website that I built to display my knowledge, experiences, tech-stack and a little about me. Examples of technologies used are Next.js and Typescript for frontend, Tailwind CSS for styling and i18n for language support.",
+      "date": "Oct, 2024"
+    },
+    "e-commerce": {
+      "title": "E-commerce",
+      "shortDescription": "A fullstack e-commerce website with Stripe payment integration.",
+      "longDescription": "A fullstack e-commerce website with store page and admin dashboard. The website is built with technologies like Next.js, Tailwind CSS, TypeScript, Express, Drizzle ORM and Stripe for payment integration.",
+      "date": "Oct, 2024"
+    }
+  },
+  "technologies": {
+    "title": "Technologies"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "placeholderName": "John Doe",
+      "placeholderEmail": "john.doe@example.com",
+      "placeholderMessage": "Hello, I would like to..."
+    }
+  }
+}
