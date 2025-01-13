@@ -22,11 +22,12 @@
     "desc2": "Software Developer"
   },
   "about": {
-    "title": "About",
+    "title": "Who am I?",
     "body": "Hi, I'm Ludvig—a self-taught programmer and first-year M.Sc. student in Industrial Engineering and Management at KTH. Alongside my studies, I'm a software developer at THS Business, helping KTH students connect with future employers. I'm currently expanding my skills in full-stack development and leveraging AI tools like Cursor and ChatGPT to code more efficiently."
   },
   "experience": {
     "title": "Experience",
+    "description": "Some of my experiences working with software development",
     "ths": {
       "title": "THS Business",
       "undertitle": "Frontend Lead & Fullstack Developer",
@@ -44,6 +45,7 @@
   },
   "education": {
     "title": "Education",
+    "description": "My current and previous education",
     "kth": {
       "title": "KTH Royal Institute of Technology",
       "undertitle": "M.Sc. Industrial Engineering and Management",
@@ -68,6 +70,7 @@
   },
   "projects": {
     "title": "Projects",
+    "description": "Here are some of my previous projects and ones I'm working on right now",
     "portfolio": {
       "title": "Portfolio",
       "shortDescription": "My website displaying my knowledge, experiences, tech-stack and a little about me.",
