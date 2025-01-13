@@ -98,7 +98,10 @@
     }
   },
   "technologies": {
-    "title": "Technologies"
+    "title": "Technology Stack",
+    "description": "Here are the technologies and tools I use to build modern web applications",
+    "mainTech": "Main Technologies",
+    "otherTech": "Other Technologies & Tools"
   },
   "contact": {
     "title": "Get in touch",

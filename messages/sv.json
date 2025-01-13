@@ -98,7 +98,10 @@
     }
   },
   "technologies": {
-    "title": "Tekniker"
+    "title": "Tekniker",
+    "description": "Här är teknikerna och verktygen jag använder för att bygga moderna webbapplikationer",
+    "mainTech": "Huvudtekniker",
+    "otherTech": "Andra Tekniker & Verktyg"
   },
   "contact": {
     "title": "Kontakta mig",
