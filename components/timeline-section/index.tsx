@@ -131,7 +131,7 @@ export function TimelineSection() {
               .filter((exp) => exp.title)
               .map((exp, index) => (
                 <motion.div key={index} variants={cardVariants}>
-                  <Card>
+                  <Card c>
                     <div className='flex flex-col md:flex-row gap-4 p-4'>
                       <motion.div
                         className='w-48 h-48 md:w-40 md:h-40 lg:w-48 lg:h-48 mx-auto md:mx-0 relative'
@@ -155,7 +155,7 @@ export function TimelineSection() {
 
                         {/* Main image container */}
                         <motion.div
-                          className='relative w-full h-full rounded-lg overflow-hidden z-10 bg-background/50 backdrop-blur-sm'
+                          className='relative w-full h-full rounded-lg overflow-hidden  bg-background/50 backdrop-blur-sm'
                           variants={imageContainerVariants}
                         >
                           {/* Outer glow/border */}
@@ -239,7 +239,7 @@ export function TimelineSection() {
 
                       {/* Main image container */}
                       <motion.div
-                        className='relative w-full h-full rounded-lg overflow-hidden z-10 bg-background/50 backdrop-blur-sm'
+                        className='relative w-full h-full rounded-lg overflow-hidden bg-background/50 backdrop-blur-sm'
                         variants={imageContainerVariants}
                       >
                         {/* Outer glow/border */}

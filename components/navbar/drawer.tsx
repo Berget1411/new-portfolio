@@ -45,7 +45,7 @@ export default function Menu({
       {menuOpen && !isWideScreen && (
         <RemoveScroll removeScrollBar={false}>
           <motion.div
-            className='fixed bottom-0 left-0 right-0 top-0 z-[1] bg-background px-8 pt-[130px]'
+            className='fixed bottom-0 left-0 right-0 top-0 z-[12] bg-background px-8 pt-[130px]'
             initial={{ x: "100%" }}
             animate={{ x: "0" }}
             exit={{ x: "100%" }}

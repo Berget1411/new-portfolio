@@ -75,7 +75,7 @@ export default function About() {
               <div className='absolute -bottom-2 right-1/3 w-1 h-1 rounded-full bg-primary/40' />
 
               {/* Main image container with double border effect */}
-              <div className='relative w-full h-full rounded-[2rem] overflow-hidden z-10 bg-background/50 backdrop-blur-sm'>
+              <div className='relative w-full h-full rounded-[2rem] overflow-hidden  bg-background/50 backdrop-blur-sm'>
                 {/* Outer glow/border */}
                 <div className='absolute inset-0 rounded-[2rem] border-4 border-primary/10' />
 
