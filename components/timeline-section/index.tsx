@@ -2,6 +2,7 @@
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 import {
   Card,
   CardContent,
@@ -162,10 +163,12 @@ export function TimelineSection() {
 
                           {/* Inner container */}
                           <div className='absolute inset-[2px] rounded-[calc(0.5rem-2px)] overflow-hidden border border-primary/20'>
-                            <img
+                            <Image
                               src={exp.image}
                               alt={exp.title}
                               className='w-full h-full object-cover'
+                              width={100}
+                              height={100}
                             />
                           </div>
                         </motion.div>
@@ -244,10 +247,12 @@ export function TimelineSection() {
 
                         {/* Inner container */}
                         <div className='absolute inset-[2px] rounded-[calc(0.5rem-2px)] overflow-hidden border border-primary/20'>
-                          <img
+                          <Image
                             src={edu.image}
                             alt={edu.title}
                             className='w-full h-full object-cover'
+                            width={100}
+                            height={100}
                           />
                         </div>
                       </motion.div>
