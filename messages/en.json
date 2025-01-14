@@ -27,7 +27,7 @@
   },
   "experience": {
     "title": "Experience",
-    "description": "Some of my experiences working with software development",
+    "description": "Here are some of my experiences working with software development",
     "ths": {
       "title": "THS Business",
       "undertitle": "Frontend Lead & Fullstack Developer",
@@ -37,10 +37,10 @@
     },
     "i-start": {
       "title": "I-Start",
-      "undertitle": "Fullstack Developer",
+      "undertitle": "Board Member",
       "date": "Jul 2024 - Aug 2024",
-      "desc1": "Developed a platform for KTH students to connect with future employers.",
-      "desc2": "Developed a platform for KTH students to connect with future employers."
+      "desc1": "I am part of a student organization which goals is to give students a direct insight into Stockholm's entrepreneurial world.",
+      "desc2": "I am also a board member for the organization."
     },
     "atlas-copco": {
       "title": "Atlas Copco",
@@ -52,7 +52,7 @@
   },
   "education": {
     "title": "Education",
-    "description": "My current and previous education",
+    "description": "Below are some of my current and previous educations",
     "kth": {
       "title": "KTH Royal Institute of Technology",
       "undertitle": "M.Sc. Industrial Engineering and Management",
@@ -83,25 +83,25 @@
       "title": "Portfolio",
       "shortDescription": "My website displaying my knowledge, experiences, tech-stack and a little about me.",
       "longDescription": "A website that I built to display my knowledge, experiences, tech-stack and a little about me. Examples of technologies used are Next.js and Typescript for frontend, Tailwind CSS for styling and i18n for language support.",
-      "date": "Oct, 2024"
+      "date": "Jan, 2025"
     },
     "e-commerce": {
       "title": "E-commerce",
       "shortDescription": "A fullstack e-commerce website with Stripe payment integration.",
-      "longDescription": "A fullstack e-commerce website with store page and admin dashboard. The website is built with technologies like Next.js, Tailwind CSS, TypeScript, Express, Drizzle ORM and Stripe for payment integration.",
+      "longDescription": "A fullstack e-commerce website with store page and admin dashboard. The website is built with technologies like Next.js, Tailwind CSS, TypeScript, Express, MongoDB, Redis and Stripe for payment integration.",
       "date": "Oct, 2024"
     },
     "ths": {
       "title": "THS",
       "shortDescription": "Working on THS Business's website",
       "longDescription": "Working on THS Business's website",
-      "date": "Oct, 2024"
+      "date": "Current, 2025"
     },
     "Andysolam": {
       "title": "Andysolam",
       "shortDescription": "Working on an e-commerce website and main website for company managing Rust servers.",
       "longDescription": "Working on an e-commerce website and main website for company managing Rust servers.",
-      "date": "Oct, 2024"
+      "date": "Current, 2025"
     }
   },
   "technologies": {

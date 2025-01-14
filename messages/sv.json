@@ -1,7 +1,7 @@
 {
   "navbar": {
-    "home": "Start",
-    "about": "Introduktion",
+    "home": "Hem",
+    "about": "Om mig",
     "experience": "Erfarenhet",
     "education": "Utbildning",
     "projects": "Projekt",
@@ -9,7 +9,7 @@
     "contact": "Kontakt"
   },
   "home": {
-    "title": "Start"
+    "title": "Hem"
   },
   "localeSwitcher": {
     "label": "Språk",
@@ -22,7 +22,7 @@
     "desc2": "Software Developer"
   },
   "about": {
-    "title": "Introduktion",
+    "title": "Om mig",
     "body": "Hej, jag är Ludvig. Jag går första året på civilingenjörprogrammet i industriell ekonomi vid KTH och är en självlärd programmerare. Vid sidan av mina studier arbetar jag som webbutvecklare på THS Business, vars mål är att hjälpa KTH-studenter att knyta kontakter med framtida arbetsgivare. För närvarande fördjupar jag mig inom fullstack-utveckling och lär mig utnyttja AI-verktyg som Cursor och ChatGPT för att koda mer effektivt."
   },
   "experience": {
@@ -34,6 +34,13 @@
       "date": "Okt 2024 - Nu",
       "desc1": "Frontendutveckling men också fullstack.",
       "desc2": "Utvecklar en plattform för KTH-studenter att knyta kontakter med framtida arbetsgivare."
+    },
+    "i-start": {
+      "title": "I-Start",
+      "undertitle": "Styrelseledamot",
+      "date": "Jul 2024 - Aug 2024",
+      "desc1": "Jag är med i en studentorganisation som ger studenter en direkt insikt i Stockholms entreprenadlandskap.",
+      "desc2": "Sitter även i styrelsen för organisationen."
     },
     "atlas-copco": {
       "title": "Atlas Copco",
@@ -76,25 +83,25 @@
       "title": "Portfolio",
       "shortDescription": "Min hemsida som visar mina kunskaper, erfarenheter, tekniker och lite om mig.",
       "longDescription": "En webbplats som jag har byggt för att visa mina kunskaper, erfarenheter, tekniker och lite om mig. Exempel på tekniker som används är Next.js och Typescript för frontend, Tailwind CSS för styling och i18n för stöd för fler språk.",
-      "date": "Oktober, 2024"
+      "date": "Jan, 2025"
     },
     "e-commerce": {
       "title": "E-commerce",
       "shortDescription": "En fullstack e-handelswebbplats med Stripe-betalningsintegration.",
-      "longDescription": "En fullstack e-handelswebbplats med butiksida och admin-panel. Webbplatsen är byggd med tekniker som Next.js, Shadcn UI, Tailwind CSS, TypeScript, Express, Drizzle ORM och Stripe för betalningsintegration.",
+      "longDescription": "En fullstack e-handelswebbplats med butiksida och admin-panel. Webbplatsen är byggd med tekniker som Next.js, Shadcn UI, Tailwind CSS, TypeScript, Express, MongoDB, Redis och Stripe för betalningsintegration.",
       "date": "Oktober, 2024"
     },
     "Andysolam": {
       "title": "Andysolam",
       "shortDescription": "Arbetar på en e-handelswebbplats och huvudwebbplats för företaget som hanterar Rust-servrar.",
       "longDescription": "Arbetar på en e-handelswebbplats och huvudwebbplats för företaget som hanterar Rust-servrar.",
-      "date": "Oktober, 2024"
+      "date": "Nu, 2025"
     },
     "ths": {
       "title": "THS",
       "shortDescription": "Arbetar på THS Business's hemsida",
       "longDescription": "Arbetar på THS Business's hemsida",
-      "date": "Oktober, 2024"
+      "date": "Nu, 2025"
     }
   },
   "technologies": {
