@@ -18,11 +18,13 @@ const useActiveSection = (
     const observerCallback: IntersectionObserverCallback = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting && entry.intersectionRatio >= 0.2) {
-          const rect = entry.target.getBoundingClientRect();
-          const viewportHeight = window.innerHeight;
+          let element = entry.target;
+          while (element && !sectionIds.includes(element.id)) {
+            element = element.parentElement as HTMLElement;
+          }
 
-          if (rect.top <= viewportHeight * 0.4) {
-            setActiveSection(entry.target.id);
+          if (element && element.id) {
+            setActiveSection(element.id);
           }
         }
       });
@@ -35,15 +37,16 @@ const useActiveSection = (
 
     sectionIds.forEach((id) => {
       const element = document.getElementById(id);
-      if (element) observer.observe(element);
+      if (element) {
+        observer.observe(element);
+        const contentDiv = element.querySelector(`[data-section="${id}"]`);
+        if (contentDiv) {
+          observer.observe(contentDiv);
+        }
+      }
     });
 
-    return () => {
-      sectionIds.forEach((id) => {
-        const element = document.getElementById(id);
-        if (element) observer.unobserve(element);
-      });
-    };
+    return () => observer.disconnect();
   }, [sectionIds, options]);
 
   return activeSection;

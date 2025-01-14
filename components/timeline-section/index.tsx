@@ -115,7 +115,7 @@ export function TimelineSection() {
       title: experience("title"),
       id: "experience",
       content: (
-        <div>
+        <div id='experience' data-section='experience'>
           <p className='text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8'>
             {experience("description")}
           </p>
@@ -199,7 +199,7 @@ export function TimelineSection() {
       title: education("title"),
       id: "education",
       content: (
-        <div>
+        <div id='education' data-section='education'>
           <p className='text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8'>
             {education("description")}
           </p>
@@ -281,7 +281,7 @@ export function TimelineSection() {
 
   return (
     <section className='w-full'>
-      <div className='main-width'>
+      <div className='main-width' id='timeline-sections'>
         <Timeline data={data} />
       </div>
     </section>
