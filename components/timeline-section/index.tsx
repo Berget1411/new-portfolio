@@ -131,7 +131,7 @@ export function TimelineSection() {
               .filter((exp) => exp.title)
               .map((exp, index) => (
                 <motion.div key={index} variants={cardVariants}>
-                  <Card c>
+                  <Card>
                     <div className='flex flex-col md:flex-row gap-4 p-4'>
                       <motion.div
                         className='w-48 h-48 md:w-40 md:h-40 lg:w-48 lg:h-48 mx-auto md:mx-0 relative'
