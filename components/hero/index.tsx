@@ -10,9 +10,22 @@ import { useTranslations } from "next-intl";
 import scrollToSection from "@/utils/scrollToSection";
 import { mainTechStack } from "@/assets/tech-stack";
 import type { TechStack } from "@/types";
+import { useState, useEffect } from "react";
 
 export function Hero() {
   const t = useTranslations("profile");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 640);
+    };
+
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -118,22 +131,22 @@ export function Hero() {
 
   return (
     <div
-      className='rounded-md min-h-[40rem] h-full md:h-[40rem] overflow-hidden'
+      className='rounded-md min-h-[45rem] sm:min-h-[40rem] h-full md:h-[40rem] overflow-hidden'
       id='start'
     >
       <HeroBackground />
       <Vortex
         backgroundColor='transparent'
-        className='flex flex-col-reverse md:flex-row items-center justify-between main-width w-full h-full py-16 md:py-0'
+        className='flex flex-col-reverse md:flex-row items-center justify-between main-width w-full h-full py-8 sm:py-16 md:py-0'
       >
         <motion.div
-          className='flex flex-col max-w-2xl text-center md:text-left mt-8 md:mt-0'
+          className='flex flex-col max-w-2xl w-full px-4 sm:px-0 text-center md:text-left mt-6 sm:mt-8 md:mt-0'
           variants={containerVariants}
           initial='hidden'
           animate='visible'
         >
           <motion.div variants={itemVariants}>
-            <h1 className='text-foreground text-4xl sm:text-5xl md:text-7xl font-bold'>
+            <h1 className='text-foreground text-3xl sm:text-5xl md:text-7xl font-bold'>
               {t("title")}
             </h1>
           </motion.div>
@@ -193,39 +206,41 @@ export function Hero() {
           </motion.div>
 
           <motion.div
-            className='flex flex-wrap gap-3 mt-8 justify-center md:justify-start'
+            className='flex flex-wrap gap-2 sm:gap-3 mt-6 sm:mt-8 justify-center md:justify-start'
             variants={techStackVariants}
             initial='hidden'
             animate='visible'
           >
-            {mainTechStack.map((tech: TechStack, index: number) => (
-              <motion.div
-                key={tech.name}
-                variants={techItemVariants}
-                whileHover='hover'
-                className='relative group'
-                custom={index}
-              >
+            {mainTechStack
+              .slice(0, isMobile ? 4 : mainTechStack.length)
+              .map((tech: TechStack, index: number) => (
                 <motion.div
-                  className='absolute inset-0 rounded-lg bg-gradient-to-r from-primary/20 to-primary/10 blur-sm'
-                  animate={{
-                    scale: [1, 1.2, 1],
-                    opacity: [0.5, 0.8, 0.5],
-                  }}
-                  transition={{
-                    duration: 2,
-                    repeat: Infinity,
-                    repeatType: "reverse",
-                    ease: "easeInOut",
-                    delay: index * 0.1,
-                  }}
-                />
-                <div className='relative flex items-center gap-2 px-3 py-1.5 bg-background/50 backdrop-blur-sm rounded-lg border border-primary/20'>
-                  <tech.icon className='w-4 h-4 text-primary' />
-                  <span className='text-sm text-foreground'>{tech.name}</span>
-                </div>
-              </motion.div>
-            ))}
+                  key={tech.name}
+                  variants={techItemVariants}
+                  whileHover='hover'
+                  className='relative group'
+                  custom={index}
+                >
+                  <motion.div
+                    className='absolute inset-0 rounded-lg bg-gradient-to-r from-primary/20 to-primary/10 blur-sm'
+                    animate={{
+                      scale: [1, 1.2, 1],
+                      opacity: [0.5, 0.8, 0.5],
+                    }}
+                    transition={{
+                      duration: 2,
+                      repeat: Infinity,
+                      repeatType: "reverse",
+                      ease: "easeInOut",
+                      delay: index * 0.1,
+                    }}
+                  />
+                  <div className='relative flex items-center gap-2 px-3 py-1.5 bg-background/50 backdrop-blur-sm rounded-lg border border-primary/20'>
+                    <tech.icon className='w-4 h-4 text-primary' />
+                    <span className='text-sm text-foreground'>{tech.name}</span>
+                  </div>
+                </motion.div>
+              ))}
 
             <motion.div
               variants={techItemVariants}
@@ -252,6 +267,7 @@ export function Hero() {
               >
                 <span className='text-sm font-medium text-primary'>More</span>
                 <motion.div
+                  className='hidden sm:block'
                   animate={{
                     y: [0, 2, 0],
                   }}
@@ -269,7 +285,7 @@ export function Hero() {
         </motion.div>
 
         <motion.div
-          className='block w-[200px] h-[200px] md:w-[300px] md:h-[300px] relative'
+          className='block w-[180px] h-[180px] sm:w-[200px] sm:h-[200px] md:w-[300px] md:h-[300px] relative'
           variants={imageVariants}
           initial='hidden'
           animate='visible'
@@ -308,7 +324,7 @@ export function Hero() {
         </motion.div>
       </Vortex>
       <motion.div
-        className='absolute bottom-24 left-1/2 -translate-x-1/2'
+        className='absolute bottom-12 sm:bottom-24 left-1/2 -translate-x-1/2'
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
