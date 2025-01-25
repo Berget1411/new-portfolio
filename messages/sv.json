@@ -102,6 +102,12 @@
       "shortDescription": "Arbetar på THS Business's hemsida",
       "longDescription": "Arbetar på THS Business's hemsida",
       "date": "Nu, 2025"
+    },
+    "notecards": {
+      "title": "NoteCards",
+      "shortDescription": "En flashcards-app med Notion-integration och AI-driven flashcard-generering som vann en hackathon hos Lovable.",
+      "longDescription": "En flashcards-app med Notion-integration och AI-driven flashcard-generering som vann en hackathon hos Lovable.",
+      "date": "Nu, 2025"
     }
   },
   "technologies": {

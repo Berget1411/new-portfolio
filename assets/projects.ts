@@ -6,7 +6,12 @@ import {
   SiReactquery,
   SiStripe,
   SiRedis,
+  SiVite,
+  SiSupabase,
+  SiOpenai,
 } from "react-icons/si";
+import { FaHeart } from "react-icons/fa";
+
 import { GrLanguage } from "react-icons/gr";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { FaCode } from "react-icons/fa6";
@@ -34,6 +39,27 @@ export const projects = [
       {
         name: "Framer Motion",
         icon: TbBrandFramerMotion,
+      },
+    ],
+    devMode: false,
+  },
+  {
+    id: "Andysolam",
+    image: "/images/projects/andysolam.png",
+
+    demo: "https://store.andysolam.com",
+    tech: [
+      {
+        name: "Next.js",
+        icon: RiNextjsFill,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: RiTailwindCssFill,
+      },
+      {
+        name: "Tanstack Query",
+        icon: SiReactquery,
       },
     ],
     devMode: false,
@@ -76,7 +102,8 @@ export const projects = [
   },
   {
     id: "ths",
-    image: "/images/projects/project_placeholder.png",
+    demo: "https://thsfuture.se/",
+    image: "/images/projects/ths.png",
     tech: [
       {
         name: "Next.js",
@@ -98,23 +125,37 @@ export const projects = [
     ],
     devMode: true,
   },
+
   {
-    id: "Andysolam",
-    image: "/images/projects/project_placeholder.png",
+    id: "notecards",
+    devMode: true,
+    image: "/images/projects/notecards.png",
+    demo: "https://preview--notecards-mindshare.lovable.app/",
     tech: [
       {
-        name: "Next.js",
-        icon: RiNextjsFill,
+        name: "Vite.js",
+        icon: SiVite,
+      },
+      {
+        name: "Supabase",
+        icon: SiSupabase,
+      },
+      {
+        name: "Stripe",
+        icon: SiStripe,
       },
       {
         name: "Tailwind CSS",
         icon: RiTailwindCssFill,
       },
       {
-        name: "Tanstack Query",
-        icon: SiReactquery,
+        name: "OpenAI",
+        icon: SiOpenai,
+      },
+      {
+        name: "Lovable AI",
+        icon: FaHeart,
       },
     ],
-    devMode: true,
   },
 ];
